@@ -5,7 +5,8 @@
  2. Higher Order Functions
 
 ### Output Based Questions
-```console.log('start')
+```
+console.log('start')
 setTimeout(() => {
   console.log('setTimeout')
 })
@@ -14,7 +15,8 @@ Promise.resolve().then(() => {
 })
 console.log('end')
 ```
-```var salary = "1000";
+```
+var salary = "1000";
 
 (function () {
   console.log("Original salary was " + salary);
@@ -24,7 +26,8 @@ console.log('end')
   console.log("My New Salary " + salary);
 })();
 ```
-```const myData={
+```
+const myData={
     name: "Parul",
 	printName: function(role){
 		console.log(name, role)	
@@ -32,7 +35,8 @@ console.log('end')
 }
 myData.printName("PA");
 ```
-```const arr = [
+```
+const arr = [
   { device: "mouse", count: 10 },
   { device: "keyboard" },
   { device: "printer", count: 20 },

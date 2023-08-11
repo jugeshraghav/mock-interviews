@@ -24,8 +24,8 @@ console.log('end')
   console.log("My New Salary " + salary);
 })();
 ```
-```var myData = {
-	name: "Parul",
+```const myData={
+    name: "Parul",
 	printName: function(role){
 		console.log(name, role)	
 	}
